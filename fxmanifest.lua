@@ -1,0 +1,19 @@
+fx_version 'cerulean'
+game 'gta5'
+name "old_sadClown"
+description "sad clown make him happy !"
+author "OldMoney"
+version "1.0.0"
+
+shared_scripts {
+	'@es_extended/imports.lua',
+	'shared/*.lua'
+}
+
+client_scripts {
+	'client/*.lua'
+}
+
+server_scripts {
+	'server/*.lua'
+}
